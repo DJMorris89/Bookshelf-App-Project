@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Forgotten Library</title>
+    <link rel="stylesheet" href="main.css"/>
+  </head>
+  <body>
+    <header>
+
+      <div id="navbar">
+        <a class="nav" href="index.html">Home</a>
+        <a class="nav" href="about.html">About Us</a>
+        <a class="nav" href="contact.html">Contact Us</a>
+      </div>
+  
+  </header>
+  <h1 class="addbks">ADD BOOKS</h1>
+    <p class="Fillall"></p>
+        <ul>
+            <li class="addbook"><input id="addTitle" type="text" placeholder="Title"></li>
+            <li class="addbook"><input id="addauthor" type="text" placeholder="Author"></li>
+            <li class="addbook"><input id="addlenguage" type="text" placeholder="Lenguage"></li>
+            <li class="addbook" ><input id="addsubject" type="text" placeholder="Subject"></li>
+            <button id="addbookbtn">Submitt Book</button>
+            
+        </ul>
+       
+  
+    <nav>
+    
+      <section class="sort">
+        <label>Sort by</label>
+        <select class="sortBy">
+          <option value="titleaz">Books A-Z</option>
+          <option value="titleza">Books Z-A</option>
+        </select>
+      </section>
+      
+    </nav>
+    <main id="app">
+      <ul class="books"></ul>
+     
+    </main>
+
+    <script src="book-data.js"></script>
+    <script src="book.js"></script>
+    <script src="bookshelf.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

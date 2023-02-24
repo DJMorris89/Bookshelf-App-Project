@@ -1,0 +1,48 @@
+body {
+   margin-top: auto;
+   background-image: url("https://static.vecteezy.com/system/resources/previews/002/936/639/non_2x/ethnic-norwegian-icelandic-seamless-pattern-runic-talismans-of-the-vikings-and-northern-peoples-magic-and-magical-runes-pagan-signs-futhark-repeatable-background-illustration-vector.jpg");
+
+}
+
+
+div {
+   border-top: solid;
+}
+
+h1 {
+   color: rgb(0, 231, 255);
+}
+
+
+ul {
+   padding-left: 0;
+   list-style: none;
+   color: rgb(0, 231, 255);
+}
+
+.nav{
+  float: right;
+  align-items: center;
+  padding-right: 6px;
+  
+}
+
+p {
+   color: rgb(0, 231, 255);
+   font-family: symbol;
+}
+
+section {
+   color: rgb(0, 231, 255);
+}
+
+button {
+   border: none;
+   background-color: #443939;
+   color: rgb(0, 231, 255);
+}
+
+.titleh1 {
+   font-family: symbol;
+}
+
