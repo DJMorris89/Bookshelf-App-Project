@@ -30,14 +30,14 @@ const libook= document.createElement('li');
   
 function bookbtn (){
   const myAddedBooks = document.querySelector('#myaddedbooks');
-  const fillAll = document.querySelector('.Fillall');
+  const fillAll = document.querySelector('.addbkinfo');
 const addTitle = document.querySelector('#addTitle');
 const addAuthor = document.querySelector('#addauthor');
 const addLenguage = document.querySelector('#addlenguage');
 const addSubject = document.querySelector('#addsubject');
 
  let AddingBooks;
-if (addAuthor.value.length > 0 & addTitle.value.length>0 & addLenguage.value.length>0 & addSubject.value.length>0){
+if (addAuthor.value.length > 0 & addTitle.value.length> 0 & addLenguage.value.length>0 & addSubject.value.length>0){
 
 AddingBooks = new Book(addTitle.value, addAuthor.value, addLenguage.value, addSubject.value);
 bookData.unshift(AddingBooks);

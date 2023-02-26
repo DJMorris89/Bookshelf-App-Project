@@ -46,3 +46,13 @@ button {
    font-family: symbol;
 }
 
+.pagetitle {
+   text-align: center;
+   text-decoration: underline;
+   font-size: 75px;
+}
+
+.addbkinfo {
+   font-family: cursive;
+}
+
