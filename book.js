@@ -34,31 +34,27 @@ function Book(authors, language, subject, title) {
     liMore1.classList.add(`more`);
     liMore2.classList.add(`more`);
     
-    // this shows the trespected areas of the book. 
+  
     li.textContent = `Title: ${this.title}`;
     
     liMore.style.display = 'none';
     liMore1.style.display = 'none';
     liMore2.style.display = 'none';
     
-     // This items are hidden on CSS to be shown when i press the read more button.
+     //Items are hidden to be shown when i press the read more button.
     
     liMore.textContent=`Author: ${this.authors}`;
     liMore1.textContent=`Language: ${this.language}`;
     liMore2.textContent=`Subject: ${this.subject}`;
     
-    // creation of the button to 
+    // creation of the read more button 
     
     const btn = document.createElement('button');
     li.appendChild(btn);
     btn.classList.add('btn');
     btn.textContent = '... Read More';
     btn.style.border = 'none'
-    
-    
-    
-    
-    // this area is for the read more      
+        
     
     btn.addEventListener('click', () =>{
       if(liMore.style.display === 'none'){
@@ -121,9 +117,7 @@ function Book(authors, language, subject, title) {
     combtn.textContent = '🗨️Comment';
     combtn.style.border = 'none'
     
-   
-   
-   // invisble ul once pressed the  🗨️comment button on top it reveals 
+    
     const commentsul = document.createElement('ul');
     commentsul.classList.add= 'commentsul';
     ul1.appendChild(commentsul);
